@@ -32,5 +32,4 @@ Scenario: sort movies in increasing order of release date
   # your steps here
   When I follow "Release Date"
   Then I should see "2001: A Space Odyssey" before "The Terminator"
-  #Then I should see "The Terminator" before "2001: A Space Odyssey"
 
